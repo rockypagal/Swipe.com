@@ -1,0 +1,728 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-color: ;
+}
+
+.main {
+    margin: 0px 381px 0px 381px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 0px;
+    margin-bottom: 90px;
+}
+
+.box {
+    display: flex;
+}
+
+.logo img {
+    width: 32px;
+    padding: 10px 25px 10px 10px;
+}
+
+.links {
+    margin: 19px 0px;
+}
+
+.links a {
+    padding: 10px 15px;
+    color: #0c5186;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.b1 {
+    width: fit-content;
+    padding: 8px 12px;
+    color: #0c5186;
+    background-color: white;
+    border: #183B56 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.b1:hover {
+    color: white;
+    background-color: #183B56;
+}
+
+.sar {
+    text-align: center;
+}
+
+.color {
+    margin-left: 20px;
+    border: none;
+    color: white;
+    background-color: #FC6666;
+}
+
+.heading p {
+    font-size: 66px;
+    font-weight: 700;
+    color: #183b56;
+    letter-spacing: 1px;
+}
+
+.text p {
+    color: #183b56;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 19px;
+}
+
+
+.btn a {
+    text-decoration: none;
+
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.hel {
+    margin-right: 20px;
+}
+
+.appstore {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.btn button {
+    width: fit-content;
+    padding: 8px 12px;
+    color: #0c5186;
+    background-color: white;
+    border: #183B56 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .5s;
+    cursor: pointer;
+    color: white;
+    background-color: #183b56;
+    transition: all .3s;
+
+}
+
+.btn button:hover {
+
+    background-color: #132330;
+    box-shadow: 7px 9px 10px rgb(192, 192, 192);
+}
+
+.fa-apple {
+    font-size: 33px;
+    margin: 6px 10px 0 0;
+
+}
+
+
+
+.page2 {
+    text-align: center;
+
+}
+
+.p2sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.p2sec1 img {
+    margin: 150px 0;
+    width: 919px;
+
+}
+
+.p2sec2 {
+    margin-bottom: 150px;
+
+}
+
+.offer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.op h2 {
+    font-size: 33px;
+    font-weight: 500;
+    margin: 27px 0;
+}
+
+.op i {
+    color: rgb(41, 87, 59);
+    font-size: 50px;
+}
+
+.op p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #424767;
+}
+
+.p2sec3 h1 {
+    font-weight: 500;
+    font-size: 49px;
+    color: #183B56;
+    letter-spacing: 1px;
+
+}
+
+.p2sec3 p {
+    color: #424767;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+.page3 {
+    margin-top: 170px;
+}
+
+.lay img {
+    width: 542px;
+}
+
+.lay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.borx h3 {
+    font-size: 37px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #183B56;
+}
+
+.borx p {
+    color: #424767;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.borx {
+    width: 480px;
+}
+
+.lay1 {
+    margin-bottom: 100px;
+}
+
+.borx a {
+    text-decoration: none;
+
+}
+
+.borx button {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    width: 144px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    transition: all .5s;
+    background-color: #183B56;
+}
+
+.borx button:hover {
+    width: 155px;
+    box-shadow: 7px 9px 10px rgb(192, 192, 192);
+}
+
+
+
+.fa-solid {
+    margin-left: 16px;
+
+}
+
+.com img {
+    width: 100px;
+}
+
+.data {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.databox {
+    padding: 45px 35px;
+    width: 353px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-right: 30px;
+    border-radius: 4px;
+
+}
+
+.databox h3 {
+    font-size: 65px;
+    font-weight: 500;
+    color: #183b56;
+}
+
+.databox p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #424767;
+}
+
+.dtb {
+    margin-right: 0;
+}
+
+.p4sec1 p {
+    text-align: center;
+    color: #183B56;
+    font-size: 19px;
+    margin-bottom: 100px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom: 130px;
+}
+
+.fa-brands {
+    color: #183B56;
+    font-size: 90px;
+}
+
+.fa-google-play {
+    font-size: 30px;
+    margin: 8px 10px 0 0;
+    color: white;
+}
+
+.loveit h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #183B56;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 32px;
+}
+
+.loveit p {
+    text-align: center;
+    color: #424767;
+    font-size: 23px;
+    margin-bottom: 100px;
+    font-weight: 200;
+}
+
+.dack {
+    margin: 180px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards {
+    /* display: flex; */
+}
+
+.card {
+    text-align: center;
+    width: 290px;
+
+    border: 1px solid rgb(211, 211, 211);
+    padding: 40px 24px;
+    border-radius: 5px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+/* .card:hover{
+
+    background-color:#FC6666;
+    color:white;
+    
+} */
+
+.com img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.star {
+    color: gold;
+}
+
+.fa-regular {}
+
+.par p {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 20px 0;
+    color: #424767;
+    line-height: 25px;
+}
+
+.card a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 50px 0 20px 0;
+}
+
+.card3,
+.card1,
+.card5 {
+    margin-bottom: 30px;
+}
+
+.cardss {
+    position: relative;
+    bottom: 50px;
+}
+
+.fact {
+    text-align: center;
+}
+
+.fact h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #183B56;
+    margin: 50px 0;
+}
+
+.fact p {
+
+    color: #424767;
+    font-size: 23px;
+    /* margin-bottom: 50px; */
+    font-weight: 200;
+    word-spacing: 2px;
+}
+
+.fa-book-open {
+    margin-right: 8px;
+}
+
+/* --------------------///////////////////////////////////////////////////////// */
+
+
+
+
+/* .fourth-page-heading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.fourth-page-heading h1 {
+    font-size: 50px;
+    color: #183b56;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.fourth-page-heading p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #424767;
+} */
+
+
+.main-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.summary-item {
+    background-color: #102638;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+}
+
+.summary-link {
+    font-size: 1.6rem;
+    color: rgb(152, 195, 225);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.summary-link ion-icon {
+    color: #e7d5ff;
+    padding: .5rem;
+}
+
+.icon2 {
+    display: none;
+}
+
+.paragraph {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+.paragraph::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.paragraph p {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, .6);
+    padding: 2rem;
+}
+
+.summary-item:target .paragraph {
+    max-height: 20rem;
+
+}
+
+.summary-item:target .summary-link ion-icon {
+    display: none;
+}
+
+.summary-item:target .summary-link .icon2 {
+    display: block;
+}
+
+/* <!-- || END FAQ PAGE || --> */
+
+
+/* <!-- || LAST PAGE START || --> */
+
+
+
+/* .download-app{
+    display: flex;
+}
+
+.stors{
+    float: left;
+}
+
+.box2 img{
+    width: 445px;
+} */
+
+.lor {
+    padding: 0px 381px 0px 381px;
+    justify-content: space-around;
+}
+
+.joj a {
+    text-decoration: none;
+
+
+}
+
+.joj {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.hel {
+    margin-right: 20px;
+}
+
+.appstore {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+
+.joj button {
+    width: fit-content;
+    padding: 8px 12px;
+    color: #0c5186;
+    background-color: white;
+    border: #183B56 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .5s;
+    cursor: pointer;
+    color: white;
+    background-color: #183b56;
+    transition: all .3s;
+
+}
+
+.joj button:hover {
+    width: fit-content;
+    background-color: #132330;
+    box-shadow: 7px 9px 10px rgb(192, 192, 192);
+}
+
+.joj {
+    justify-content: left;
+}
+
+.lor {
+    height: 489px;
+    background-color: #EFF1F5;
+
+}
+
+.borxx {
+    padding: 40px 0;
+}
+
+
+.lor img {
+    padding: 10px 0;
+    margin: auto;
+}
+
+.fb {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 20px 8px 0 0;
+}
+
+.fa-twitter {
+    color: rgb(0, 110, 255);
+}
+
+.fa-facebook {
+    color: rgb(0, 81, 255);
+}
+
+
+/* <!-- || START FOOTER PAGE || --> */
+
+.fsec1{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.media{
+    line-height: 25px;
+    font-weight: 200;
+    font-size: 18px;
+    color: #424767;
+    width:300px;
+}
+
+.themes p, .subscribe p{
+    font-weight: 500;
+    font-size: 21px;
+    color: #424767;
+}
+
+.themes a{
+    text-decoration: none;
+    color:#424767;
+}
+.themes li{
+    
+    list-style-type: none;
+    margin: 12px 0;
+    padding:0;
+}
+
+.input{
+    display: block;
+    width:290px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    outline: none;
+    margin-top:20px;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+    border: 1px solid #a4a5aa;
+}
+
+.subscribe button{
+    
+    margin-bottom: 12px;
+cursor: pointer;
+border: none;
+width: 312px;
+border-radius: 5px;
+padding: 10px;
+font-size: 18px;
+color: white;
+transition: all .5s;
+background-color: #183B56;
+}
+
+
+
+.subscribe button:hover {
+    background-color: #132330;
+box-shadow: 7px 9px 10px rgb(192, 192, 192);
+}
+
+.copyright{
+    text-align: center;
+    color:#424767;
+    margin: 15px 0;
+}
+
+.copyright img{
+width:20px;
+margin-bottom:8px;
+}
+
+
+
+
+/* <!-- || END FOOTER PAGE || --> */
