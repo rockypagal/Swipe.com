@@ -722,6 +722,25 @@ width:20px;
 margin-bottom:8px;
 }
 
+.stikeybox a i {
+    color: white;
+    margin-right: 2px;
+}
+
+.one-four {
+    background-color: #0d1117;
+    width: 35px;
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    transition: 0.5s;
+}
+
+.one-four:hover{
+    background-color:rgb(72, 67, 67);
+}
+
 
 
 
