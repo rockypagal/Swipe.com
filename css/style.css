@@ -726,3 +726,67 @@ margin-bottom:8px;
 
 
 /* <!-- || END FOOTER PAGE || --> */
+
+
+/* <!-- || MEDIA QUERIES FOR LAPTOPS  || --> */
+@media (max-width:1700px){
+    .main{
+        margin:0px 300px ;
+    }
+
+    .lor {
+        padding: 0px 300px ;
+        
+    }
+}
+
+
+
+
+@media (max-width:1550px){
+    .main{
+        margin:0px 200px ;
+    }
+
+    .lor {
+        padding: 0px 200px ;
+        
+    }
+}
+
+
+
+
+@media (max-width:1450px){
+    .main{
+        margin:0px 150px ;
+    }
+
+    .lor {
+        padding: 0px 150px ;
+        
+    }
+    
+
+}
+
+
+
+
+
+@media (max-width:1348px){
+    .main{
+        margin:0px 120px ;
+    }
+
+    .lor {
+        padding: 0px 120px ;
+        
+    }
+}
+
+
+
+
+
+
