@@ -437,106 +437,80 @@ body {
 
 
 
-/* .fourth-page-heading {
-    text-align: center;
-    margin-top: 150px;
+
+
+/* <!-- || STARTING OF FAQ PAGE || --> */
+
+.faq{
+    color:#183B56;
 }
 
-.fourth-page-heading h1 {
-    font-size: 50px;
-    color: #183b56;
-    font-weight: 100;
-    margin-bottom: 20px;
+
+.factContainer{
+    text-align: center; 
 }
 
-.fourth-page-heading p {
-    font-size: 25px;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    color: #424767;
-} */
-
-
-.main-container {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.factContainer h2{
+    font-size: 40px;
+    font-weight: 400;
 }
 
-.container {
-    width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+.factContainer p{
+    margin:50px 0px 130px 0px;
+    
+    font-size: 20px;
+    font-weight: 300;
 }
 
-.summary-item {
-    background-color: #102638;
-    border-radius: .4rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    box-shadow: .5rem 2px .5rem rgba(0, 0, 0, .1);
+.drawerContainer{
+    border: 1px solid #171f3838;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-bottom: none;
+}
+.drawer{
+   cursor: pointer;
 }
 
-.summary-link {
-    font-size: 1.6rem;
-    color: rgb(152, 195, 225);
-    text-decoration: none;
-    background-color: #283042;
-    width: 100%;
+
+.question{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    font-size: 20px;
+    background-color:#171f380c;
+    padding:25px;
+    border-bottom: 1px solid #171f3838;
 }
 
-.summary-link ion-icon {
-    color: #e7d5ff;
-    padding: .5rem;
-}
-
-.icon2 {
-    display: none;
-}
-
-.paragraph {
-    max-height: 0;
+.ans{
+    
+    padding-bottom: 0;
+    font-size: 18px;
+    background-color:#171f3802;
+    border-bottom: 1px solid #171f3838;
+    transition: all ease .5s;
+    height:0px ;
     overflow: hidden;
-    position: relative;
-    background-color: #212838;
-    transition: max-height 650ms;
+    box-sizing: border-box;
 }
 
-.paragraph::before {
-    content: "";
-    position: absolute;
-    width: .6rem;
-    height: 90%;
-    background-color: #8fc460;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+.ans p{
+    
+    padding:20px;
+   
 }
 
-.paragraph p {
-    font-size: 1.4rem;
-    color: rgba(255, 255, 255, .6);
-    padding: 2rem;
+
+.show .ans{
+    height:140px;
+    
 }
 
-.summary-item:target .paragraph {
-    max-height: 20rem;
 
-}
 
-.summary-item:target .summary-link ion-icon {
-    display: none;
-}
 
-.summary-item:target .summary-link .icon2 {
-    display: block;
-}
+
+
 
 /* <!-- || END FAQ PAGE || --> */
 
